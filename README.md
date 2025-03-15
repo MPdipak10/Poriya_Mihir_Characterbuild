@@ -1,4 +1,4 @@
-# Poriya_Mihir_Characterbuild
+# Poriya_Mihir_HW2
 This is my Characterbuild assignment.
 
 # Character Build Assignment - Indian Cricket Team
