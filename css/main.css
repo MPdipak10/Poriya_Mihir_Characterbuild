@@ -126,6 +126,62 @@ header{
     color: white;
     text-align: center;
     height: 80px;
-    background-color: black;
+    background-color: #d6b268;
     padding: 20px 0px 20px 0px;
+}
+
+.lightbox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.85);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+    display: none;
+}
+
+.lightbox:target{
+    display: block;
+}
+
+#lightbox1{
+    background-image: url(../images/Virat\ -\ BG.png);
+}
+
+.lightbox-close{
+    margin-left: 90%;
+    color: #fff;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.lightbox article{
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.lb-heading{
+    font-size: 32px;
+    text-shadow: #2255A4;
+}
+
+.lb-text{
+    line-height: 24px;
+}
+
+#lightbox2{
+    background-image: url(../images/Rohit\ -\ BG.png);
+}
+
+#lightbox3{
+    background-image: url(../images/Rahul\ -\ BG.png);
+}
+
+#lightbox4{
+    background-image: url(../images/Hardik\ -\ BG.png);
 }
