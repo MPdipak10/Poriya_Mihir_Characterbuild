@@ -30,14 +30,16 @@ header{
     background-repeat: no-repeat;
     background-size: 1220px;
     background-color: #6A6A6A;
-    background-color: auto;
     background-blend-mode: multiply;
+    height: 100vh;
 }
 
 #Cricketers{
     list-style-type: none;
     padding: 0;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #Crickers li{
@@ -97,7 +99,6 @@ header{
 }
 
 #Cricketers li img:hover{
-    filter: blur(100%);
     filter: grayscale(100%);
     border-radius: 50%;
     transition: all .5s ease-in-out;
@@ -109,6 +110,7 @@ header{
 
 #instruction{
     padding: 20px;
+    background-color: #B3E3EE;
 }
 
 #instruction h3{
@@ -167,7 +169,6 @@ header{
 
 .lb-heading{
     font-size: 32px;
-    text-shadow: #2255A4;
 }
 
 .lb-text{
@@ -184,4 +185,12 @@ header{
 
 #lightbox4{
     background-image: url(../images/Hardik\ -\ BG.png);
+}
+
+#lightbox5{
+    background-image: url(../images/Bhuvi\ -\ BG.png);
+}
+
+#lightbox6{
+    background-image: url(../images/Jasprit\ -\ BG.png);
 }
